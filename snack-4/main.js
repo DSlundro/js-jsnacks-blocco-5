@@ -19,7 +19,7 @@ const toGether = [];
 // creo un ciclo per verificare la presenza delle stringhe
 for (let i = 0; i < arrayLetters.length; i++) {
     // pusho i valori ottenuti nel array
-    toGether.push(arrayNumbers[i]);
+    toGether.push(arrayLetters[i]);
     // creo un condizione per verificare la presenza delle stringhe già inserite nel array
     if (toGether.includes(arrayLetters[i])) {
     toGether.push(arrayNumbers[i]);
